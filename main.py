@@ -7,6 +7,7 @@ colorama.init(autoreset = True)
 # Back : BLACK, RED, GREEN, YELLOW, BLUE, MAGENTA, CYAN, WHITE, RESET
 # Style : DIM, NORMAL, BRIGHT, RESET_ALL
 
+print("Fore")
 print(Fore.RED + 'Some Red Text')
 print(Fore.GREEN + 'Some Green text')
 print(Fore.YELLOW + 'Some Yellow text')
@@ -16,6 +17,7 @@ print(Fore.CYAN + 'Some Cyan text')
 print(Fore.WHITE + 'Some White text')
 print()
 
+print("Back")
 print(Back.RED + 'RED')
 print(Back.GREEN + 'GREEN')
 print(Back.YELLOW + 'YELLOW')
@@ -25,6 +27,7 @@ print(Back.CYAN + 'CYAN')
 print(Back.WHITE + 'WHITE')
 print()
 
+print("Style")
 print(Style.DIM + "I am DIM")
 print(Style.NORMAL + "I am NORMAL")
 print(Style.BRIGHT + "I am BRIGHT")
